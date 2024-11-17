@@ -20,12 +20,13 @@ maxGuardias INT CHECK (maxGuardias  >= 0), -- Asegura un valor no negativo
 );
 
 CREATE TABLE INTERNACION (
-idInternacion INT PRIMARY KEY,  -- Clave primaria
+idInternacion INT IDENTITY(1,1) PRIMARY KEY,  -- Clave primaria
 fechaInicio DATE NOT NULL,
 fechaFin DATE,  -- Puede ser nulo
 dniPaciente INT NOT NULL,  -- Clave foránea a PACIENTE
 matricula INT NOT NULL,  -- Clave foránea a MEDICO
 );
+
 
 CREATE TABLE SECTOR(
 idSector INT PRIMARY KEY,

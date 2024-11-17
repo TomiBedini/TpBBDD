@@ -1,74 +1,15 @@
-INSERT INTO paciente (dni, nombre, apellido, fechaNacimiento, sexo) VALUES 
-('21547892', 'Juan', 'Pérez', '1971-01-15', 'M'),
-('21764583', 'Ana', 'García', '1971-04-22', 'F'),
-('21987654', 'Luis', 'Martínez', '1971-07-10', 'M'),
-('22019876', 'María', 'López', '1971-11-05', 'F'),
-('22134567', 'Sofía', 'Martín', '1971-09-18', 'O'),
-('33456789', 'Carlos', 'Fernández', '1999-01-20', 'M'),
-('33678901', 'Valentina', 'González', '1999-03-25', 'F'),
-('33890123', 'Diego', 'Torres', '1999-07-30', 'M'),
-('33901234', 'Lucía', 'Sánchez', '1999-11-15', 'F'),
-('33567890', 'Javier', 'Cruz', '1999-06-12', 'O'),
-('31234567', 'Fernando', 'Hernández', '1997-02-03', 'M'),
-('31456789', 'Clara', 'Vega', '1997-05-29', 'F'),
-('31678901', 'Nicolás', 'Jiménez', '1997-10-14', 'M'),
-('31345678', 'Patricia', 'Moreno', '1997-08-20', 'F'),
-('31567890', 'Hugo', 'Paz', '1997-12-02', 'O'),
-('23456789', 'Esteban', 'Ramírez', '1985-01-30', 'M'),
-('23678901', 'Gabriela', 'Salas', '1985-03-19', 'F'),
-('23890123', 'Andrés', 'Cortés', '1985-07-08', 'M'),
-('23901234', 'Marta', 'López', '1985-09-25', 'F'),
-('23789012', 'Ramón', 'Serrano', '1985-11-10', 'O'),
-('32456789', 'Julián', 'Soto', '1995-02-15', 'M'),
-('32890123', 'Diana', 'Torres', '1995-08-21', 'O'),
-('32901234', 'Diego', 'Hernández', '1995-12-03', 'M'),
-('32567890', 'Santiago', 'García', '1995-07-30', 'F'),
-('21234567', 'Claudia', 'Mendoza', '1980-01-25', 'F'),
-('21456789', 'Gonzalo', 'Ríos', '1980-05-16', 'M'),
-('21678901', 'Cristina', 'Cruz', '1980-09-10', 'F'),
-('21789012', 'Luis', 'Vega', '1980-11-20', 'M'),
-('21567890', 'Álvaro', 'Fernández', '1980-04-17', 'O'),
-('19567890', 'Alejandra', 'López', '1975-02-02', 'F'),
-('19789012', 'Roberto', 'Pérez', '1975-08-29', 'M'),
-('19901234', 'María', 'Cordero', '1975-10-19', 'F'),
-('19890123', 'Carlos', 'Sánchez', '1975-12-30', 'M'),
-('19678901', 'Verónica', 'Hernández', '1975-05-11', 'O'),
-('18234567', 'Mateo', 'Rivas', '1930-02-22', 'M'),
-('18456789', 'Elena', 'Salazar', '1932-03-15', 'F'),
-('18678901', 'Oscar', 'Núñez', '1935-06-12', 'M'),
-('18890123', 'Nadia', 'Jaramillo', '1938-08-25', 'F'),
-('18901234', 'Tomas', 'Villanueva', '1940-12-14', 'O'),
-('11234567', 'Julián', 'Soto', '1945-01-20', 'M'),
-('11456789', 'Fernanda', 'Rivas', '1946-04-22', 'F'),
-('11678901', 'Miguel', 'González', '1950-07-15', 'M'),
-('11890123', 'Cecilia', 'Paz', '1952-11-05', 'F'),
-('11901234', 'Sergio', 'Martín', '1955-09-18', 'O'),
-('19654321', 'Valentina', 'Alvarez', '1975-01-20', 'F'),
-('19876543', 'Federico', 'Salas', '1978-03-12', 'M'),
-('20012345', 'Carla', 'Cruz', '1979-05-10', 'F'),
-('20234567', 'Esteban', 'López', '1980-06-30', 'M'),
-('20456789', 'Lina', 'Rodríguez', '1981-09-29', 'O'),
-('30567890', 'Felipe', 'Zapata', '1991-02-04', 'M'),
-('30789012', 'Diana', 'Nava', '1993-06-12', 'F'),
-('30901234', 'Ramiro', 'Martín', '1995-08-14', 'O'),
-('31123456', 'Sara', 'Cáceres', '1995-10-12', 'F'),
-('31012345', 'Emilio', 'Alvarado', '1995-11-20', 'M'),
-('45012345', 'Santiago', 'Alvarez', '2011-02-20', 'M'),
-('45234567', 'Alma', 'González', '2012-03-30', 'F'),
-('45456789', 'Nicolás', 'Morales', '2015-05-05', 'O'),
-('45567890', 'Valeria', 'López', '2017-07-07', 'F'),
-('45678901', 'Gustavo', 'Ramírez', '2020-08-08', 'M'),
-('34567890', 'Matias', 'Navarro', '1989-02-01', 'M'),
-('35567890', 'Rocio', 'Castillo', '1991-08-01', 'O'),
-('25567890', 'Julieta', 'Coronel', '1973-05-06', 'F'),
-('24567890', 'Juan', 'Perez', '1980-04-23', 'M'),
-('25789012', 'Maria', 'Gomez', '1982-06-15', 'F'),
-('26789034', 'Luis', 'Lopez', '1979-01-05', 'M'),
-('27890123', 'Ana', 'Diaz', '1985-08-20', 'F'),
-('27891234', 'Carlos', 'Suarez', '1988-10-12', 'M'),
-('28901234', 'Gabriel', 'Fernandez', '1990-03-10', 'M'),
-('29890123', 'Lucia', 'Martinez', '1993-02-25', 'F'),
-('32678901', 'Fernando', 'Aguero', '1984-09-13', 'M');
+--poblamos tabla de pacientes
+
+--INSERT INTO paciente (dni, nombre, apellido, fechaNacimiento, sexo) VALUES 
 
 
-select * from paciente 
+
+--poblamos tabla de medicos
+
+--INSERT INTO MEDICO (matricula, dni, nombre, apellido, cuitCuil, foto, fechaIngreso, maxGuardias) VALUES
+
+
+select * from medico
+
+--poblamos tabla internacion
+
